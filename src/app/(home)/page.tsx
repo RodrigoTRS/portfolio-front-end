@@ -1,6 +1,6 @@
-import { TechStackGrid } from "@/components/tech-stack-grid";
+import { TechStackGrid } from "@/components/tech-stack/tech-stack-grid";
 import { Heading } from "../../components/heading";
-import { ProjectsCarousel } from "../../components/projects-carousel";
+import { ProjectsCarousel } from "../../components/project-carousel/projects-carousel";
 import { SwipeAnnotation } from "../../components/swipe-annotation";
 import { Separator } from "@/components/ui/separator";
 

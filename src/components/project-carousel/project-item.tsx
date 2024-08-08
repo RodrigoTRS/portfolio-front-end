@@ -57,8 +57,10 @@ export function ProjectItem({
                             </Button>
                         }
                         {repositoryUrl &&
-                            <Button onClick={() => router.push(repositoryUrl)} variant="outline">
-                                Repository
+                            <Button variant="outline" asChild>
+                                <Link href={repositoryUrl} target="_blank">
+                                    Repository
+                                </Link>
                             </Button>
                         }
                     </div>

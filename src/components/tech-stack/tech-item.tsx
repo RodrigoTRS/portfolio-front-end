@@ -1,5 +1,5 @@
 import { IconType } from "react-icons/lib";
-import { Card } from "./ui/card";
+import { Card } from "../ui/card";
 
 interface TechItemProps {
     icon: IconType,

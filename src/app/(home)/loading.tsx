@@ -1,7 +1,7 @@
 import { Heading } from "@/components/heading";
-import { LoadingProjectsCarousel } from "@/components/projects-carousel";
+import { LoadingProjectsCarousel } from "../../components/project-carousel/projects-carousel";
 import { SwipeAnnotation } from "@/components/swipe-annotation";
-import { TechStackGrid } from "@/components/tech-stack-grid";
+import { TechStackGrid } from "@/components/tech-stack/tech-stack-grid";
 import { Separator } from "@/components/ui/separator";
 
 export default function Loading() {

@@ -2,7 +2,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { ProjectItem } from "./project-item";
 import { listProjects } from "@/actions/fetch-projects";
 import { Project } from "@/models/Project";
-import { Skeleton } from "./ui/skeleton";
+import { Skeleton } from "../ui/skeleton";
 
 export async function ProjectsCarousel() {
 
@@ -10,7 +10,7 @@ export async function ProjectsCarousel() {
 
   return (
     <Carousel
-    className="w-[280px] md:w-[640px] lg:w-[920px] relative"
+    className="w-[280px] md:w-[560px] lg:w-[920px] relative"
       opts={{
         align: "start",
         loop: true
@@ -36,7 +36,7 @@ export async function LoadingProjectsCarousel() {
 
   return (
     <Carousel
-    className="w-[280px] md:w-[640px] lg:w-[920px] relative"
+    className="w-[280px] md:w-[560px] lg:w-[920px] relative"
       opts={{
         align: "start",
         loop: true

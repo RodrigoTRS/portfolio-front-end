@@ -5,7 +5,7 @@ import { ModeToggle } from "./mode-toggle";
 
 export function Header() {
     return (
-        <header className="w-full flex align-center justify-center bg-background border-b border-muted p-4">
+        <header className="w-full flex align-center justify-center bg-background border-b p-4">
             <div className="flex justify-between items-center w-full max-w-[1120px]">
                 <Logo />
                 <nav className="flex items-center gap-2">
