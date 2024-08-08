@@ -1,6 +1,9 @@
+import { TechStackGrid } from "@/components/tech-stack-grid";
 import { Heading } from "../../components/heading";
 import { ProjectsCarousel } from "../../components/projects-carousel";
 import { SwipeAnnotation } from "../../components/swipe-annotation";
+import { Separator } from "@/components/ui/separator";
+
 
 export default function Home() {
 	return (
@@ -13,6 +16,10 @@ export default function Home() {
 			<Heading />
 			<ProjectsCarousel />
 			<SwipeAnnotation />
+
+			<Separator />
+
+			<TechStackGrid />
 		</section>
 	);
 }

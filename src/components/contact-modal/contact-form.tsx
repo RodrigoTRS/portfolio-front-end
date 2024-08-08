@@ -9,6 +9,8 @@ import { Textarea } from "../ui/textarea";
 import { Button } from "../ui/button";
 import { Loader } from "../loader";
 import { FormErrorMessage } from "../form-error-message";
+import { toast } from "../ui/use-toast";
+import { ToastAction } from "../ui/toast";
 
 const contactFormSchema = z.object({
     name: z.string().min(3, { message: "Your name must be at least 3 characters long."}),
@@ -37,7 +39,13 @@ export function ContactForm({ closeModalFn }: ContactFormProps) {
     });
 
     function handleContact(data: ContactFormData) {
+        console.log(data);
         closeModalFn();
+        toast({
+            title: "I'll get in touch soon...",
+            description: "While you wait, why don't you take a look on my projects?",
+            action: <ToastAction altText="OK">OK</ToastAction>
+        })
         reset()
     }
 
