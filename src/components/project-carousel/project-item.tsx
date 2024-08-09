@@ -39,8 +39,8 @@ export function ProjectItem({
                     />
                 </Link>
 
-                <div className="flex w-full min-h-[200px] flex-col items-start justify-between p-8 rounded-bl-md rounded-br-md bg-card border border-muted gap-2">
-                    <div>
+                <div className="flex w-full min-h-[240px] flex-col items-start justify-between p-4 md:p-6 lg:p-8 rounded-bl-md rounded-br-md bg-card border border-muted gap-2">
+                    <div className="flex flex-col gap-2">
                         <h2 className="text-xl font-semibold">
                             {title}
                         </h2>

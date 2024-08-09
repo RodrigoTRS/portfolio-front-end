@@ -38,7 +38,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <main>
+          <main className="w-full overflow-x-hidden">
             {children}
           </main>
           <Toaster />

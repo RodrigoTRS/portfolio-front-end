@@ -68,10 +68,15 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "infinite-left": {
+          from: { transform: "translateX(700px)" },
+          to: { transform: "translateX(-700px)" }
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "infinite-left": "infinite-left 10s infinite linear "
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],

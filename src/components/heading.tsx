@@ -9,7 +9,7 @@ export function Heading({
 }: HeadingProps) {
 	return (
 		<div
-			className="w-full max-w-[640px] flex flex-col items-center justify-center gap-2"
+			className="w-full max-w-[640px] flex flex-col items-center justify-center gap-2 px-8"
 		>
 			<h1 className="text-2xl lg:text-3xl font-bold text-center">
                 {title}
