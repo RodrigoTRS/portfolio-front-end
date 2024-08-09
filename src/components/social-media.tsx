@@ -14,7 +14,8 @@ export function SocialMedia() {
                 <Button
                     variant="default"
                     size="icon"
-                    >
+                    aria-label="Access my github"
+                >
                     <Github className="w-5 h-5" />
                 </Button>
             </Link>
@@ -23,6 +24,7 @@ export function SocialMedia() {
                 <Button
                     variant="default"
                     size="icon"
+                    aria-label="Access my linkedin"
                 >
                     <Linkedin className="w-5 h-5" />
                 </Button>

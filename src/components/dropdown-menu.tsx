@@ -37,6 +37,7 @@ function Trigger({isOpen}: TriggerProps) {
             <Button
                 variant="outline"
                 size="icon"
+                aria-label="Open side menu"
             >
                 {isOpen ? <X /> : <Menu />}
             </Button>
