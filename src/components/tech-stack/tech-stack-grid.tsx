@@ -19,7 +19,7 @@ const iconArray = [
 	},
 	{ 
 		icon: RiNextjsFill,
-		description: "Nextjs"
+		description: "Next.js"
 	},
 	{ 
 		icon: SiTypescript,
